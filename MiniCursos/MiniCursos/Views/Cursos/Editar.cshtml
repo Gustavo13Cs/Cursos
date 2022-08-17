@@ -1,0 +1,33 @@
+﻿@model MiniCursos.Models.Cursos
+@{
+    ViewBag.Title = "Editar";
+}
+
+<h2>Atualizar Curso</h2>
+
+<div>
+    <form action="/Cursos/Editar?id=@Model.CURSOID" method="post">
+        <label for="descricao">Descrição</label>
+        <input type="text" class="form-control" maxlength="100" id="descricao" name="descricao" value=@Model.CURSODESCRICAO required />
+
+        <div>
+            <label for="">Habilidade</label>
+            <input type="text" class="form-control" maxlength="100" id="habilidade" name="habilidade" value=@Model.CURSOCODHABILIDADE required />
+
+        </div>
+
+        <div>
+            <label for="maximo">Modalidade</label>
+            <input type="text" class="form-control" id="modalidade" name="modalidade" value=@Model.CURSOMODALIDADE required />
+
+        </div>
+        <br />
+        <div>
+            <a href="/Cursos/Index"> <button type="button" class="btn btn-primary">Voltar</button>  </a>
+            <button type="submit" class="btn btn-success">Salvar</button>
+        </div>
+
+    </form>
+
+</div>
+

@@ -1,0 +1,37 @@
+﻿
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+<div>
+    <form action="/Disciplinas/Create" method="post">
+        <div class="form-group">
+            <label for="descricao">Descrição</label>
+            <input type="text" class="form-control"
+                   maxlength="100"
+                   id="descriçao" name="descricao"
+                   required />
+        </div>
+        <div class="form-group">
+            <label for="idcurso">ID Do Curso</label>
+            <input type="text" class="form-control"
+                   id="Idcurso" name="iDCurso" min="0"
+                   value=""
+                   required />
+        </div>
+        <div class="form-group">
+            <label for="CargaHoraria">Carga Horaria</label>
+            <input type="text" class="form-control"
+                   id="CargaHoraria" name="CargaHoraria" min="0"
+                   value=""
+                   required />
+        </div>
+        <div>
+            <a href="/Disciplinas/Index"> <button type="button" class="btn btn-primary">Voltar</button>  </a>
+            <a href="/Disciplinas/Index"> <button type="submit" class="btn btn-success">Salvar</button>  </a>
+        </div>
+    </form>
+</div>
+

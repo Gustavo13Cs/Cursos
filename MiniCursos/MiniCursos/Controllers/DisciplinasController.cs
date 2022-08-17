@@ -16,5 +16,24 @@ namespace MiniCursos.Controllers
             ViewBag.qtdDisciplinas = bd.Disciplinas.ToList().Count();
             return View(bd.Disciplinas.ToList());
         }
+
+        public ActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult Create(string descricao, string iDCurso, string CargaHoraria)
+        {
+            Cursos novocurso = new Cursos();
+            novocurso.CURSODESCRICAO = descricao;
+            novocurso.CURSOCODHABILIDADE = iDCurso;
+            novocurso.CURSOMODALIDADE = CargaHoraria;
+
+            bd.Cursos.Add(novocurso);
+            bd.SaveChanges();
+
+            return RedirectToAction("index");
+        }
     }
 }

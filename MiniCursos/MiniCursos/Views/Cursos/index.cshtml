@@ -29,8 +29,14 @@
                 <td>@item.CURSODESCRICAO</td>
                 <td>@item.CURSOCODHABILIDADE</td>
                 <td>@item.CURSOMODALIDADE</td>
+
+                <td>
+                    <a href="/Cursos/Editar?id=@item.CURSOID"><button type="button" class="btn btn-warning">Editar</button></a>
+                    <a href="/Cursos/Detalhes?id=@item.CURSOID"><button type="button" class="btn btn-primary">Exibir</button></a>
+                    <a href="/Cursos/Excluir?id=@item.CURSOID"><button type="button" class="btn btn-danger">Excluir</button></a>
+                </td>
             </tr>
         }
-    </tbody>
-</table>
+        </tbody>
+    </table>
 

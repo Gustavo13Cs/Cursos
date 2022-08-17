@@ -21,5 +21,16 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <EntitySetMapping Name="GrupoCursoQuantidadeDisciplina">
+      <EntityTypeMapping TypeName="BDCursosModel.GrupoCursoQuantidadeDisciplina">
+        <MappingFragment StoreEntitySet="GrupoCursoQuantidadeDisciplina">
+          <ScalarProperty Name="Quantidade" ColumnName="Quantidade" />
+          <ScalarProperty Name="Modalidade" ColumnName="Modalidade" />
+          <ScalarProperty Name="Habilidade" ColumnName="Habilidade" />
+          <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
   </EntityContainerMapping>
 </Mapping>

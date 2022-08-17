@@ -1,0 +1,32 @@
+﻿@model MiniCursos.Models.Cursos
+@{
+    ViewBag.Title = "Detalhes";
+}
+
+<h2>Detalhes</h2>
+
+<div>
+    <form action="/Cursos/Detalhes" method="post"
+        <label>Descrição :</label>
+        <label>@Model.CURSODESCRICAO</label>
+
+        <div>
+            <label>Habilidade :</label>
+            <label>@Model.CURSOCODHABILIDADE</label>
+
+        </div>
+
+        <div>
+            <label>Modalidade :</label>
+            <label>@Model.CURSOMODALIDADE</label>
+
+        </div>
+
+        <div>
+            <a href="/Cursos/Index"><button type="button" class="btn btn-primary">Voltar</button></a>
+        </div>
+
+    </form>
+
+</div>
+

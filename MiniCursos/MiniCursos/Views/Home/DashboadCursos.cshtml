@@ -1,0 +1,21 @@
+﻿@model IEnumerable<MiniCursos.Models.GrupoCursoQuantidadeDisciplina>
+@{
+    ViewBag.Title = "DashboadCursos";
+}
+
+<div class="row"
+     <h2>Dados do Curso</h2>
+</div>
+
+<div class="row"
+     @foreach (var item in Model)
+     {
+         <div class="col-md-2 divCursoitemDashboard">
+             @item.Descricao :<br /> 
+             @item.Quantidade
+         </div>
+     }
+
+ </div>
+
+
