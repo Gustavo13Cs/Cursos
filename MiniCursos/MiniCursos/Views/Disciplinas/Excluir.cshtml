@@ -1,7 +1,32 @@
-﻿
+﻿@model MiniCursos.Models.Disciplinas
 @{
     ViewBag.Title = "Excluir";
 }
 
-<h2>Excluir</h2>
+<h2>Excluir Disciplinas</h2>
+
+<div>
+    <form action="/Disciplinas/ExcluirConfirma?id=@Model.DISID" method="post">
+        <label>Descrição :</label>
+        <label>@Model.DISDESCRIACAO</label>
+
+        <div>
+            <label>ID Do Curso :</label>
+            <label>@Model.CURSOID</label>
+
+        </div>
+
+        <div>
+            <label>Carga Horaria :</label>
+            <label>@Model.DISCH</label>
+
+        </div>
+        <div>
+            <a href="/Disciplinas/Index"> <button type="button" class="btn btn-primary">Voltar</button></a>
+            <a href="/Disciplinas/Index"><button type="submit" class="btn btn-danger">Excluir</button> </a>
+        </div>
+
+    </form>
+
+</div>
 

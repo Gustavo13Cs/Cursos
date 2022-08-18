@@ -88,8 +88,6 @@ C:\Users\android\Documents\GitHub\MiniCursos\MiniCursos\bin\EntityFramework.dll
 C:\Users\android\Documents\GitHub\MiniCursos\MiniCursos\bin\EntityFramework.SqlServer.dll
 C:\Users\android\Documents\GitHub\MiniCursos\MiniCursos\bin\EntityFramework.xml
 C:\Users\android\Documents\GitHub\MiniCursos\MiniCursos\bin\EntityFramework.SqlServer.xml
-C:\Users\android\Documents\GitHub\Cursos\MiniCursos\MiniCursos\obj\Debug\MiniCursos.csproj.AssemblyReference.cache
-C:\Users\android\Documents\GitHub\Cursos\MiniCursos\MiniCursos\obj\Debug\MiniCursos.csproj.CoreCompileInputs.cache
 C:\Users\android\Documents\GitHub\Cursos\MiniCursos\MiniCursos\bin\MiniCursos.dll.config
 C:\Users\android\Documents\GitHub\Cursos\MiniCursos\MiniCursos\bin\MiniCursos.dll
 C:\Users\android\Documents\GitHub\Cursos\MiniCursos\MiniCursos\bin\MiniCursos.pdb
@@ -175,6 +173,8 @@ C:\Users\android\Documents\GitHub\Cursos\MiniCursos\MiniCursos\bin\pt-br\System.
 C:\Users\android\Documents\GitHub\Cursos\MiniCursos\MiniCursos\bin\pt-br\System.Web.WebPages.resources.dll
 C:\Users\android\Documents\GitHub\Cursos\MiniCursos\MiniCursos\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
 C:\Users\android\Documents\GitHub\Cursos\MiniCursos\MiniCursos\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+C:\Users\android\Documents\GitHub\Cursos\MiniCursos\MiniCursos\obj\Debug\MiniCursos.csproj.AssemblyReference.cache
+C:\Users\android\Documents\GitHub\Cursos\MiniCursos\MiniCursos\obj\Debug\MiniCursos.csproj.CoreCompileInputs.cache
 C:\Users\android\Documents\GitHub\Cursos\MiniCursos\MiniCursos\obj\Debug\MiniCursos.csproj.CopyComplete
 C:\Users\android\Documents\GitHub\Cursos\MiniCursos\MiniCursos\obj\Debug\MiniCursos.dll
 C:\Users\android\Documents\GitHub\Cursos\MiniCursos\MiniCursos\obj\Debug\MiniCursos.pdb

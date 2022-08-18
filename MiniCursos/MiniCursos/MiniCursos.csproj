@@ -224,6 +224,8 @@
     <Content Include="Views\Disciplinas\Detalhes.cshtml" />
     <Content Include="Views\Disciplinas\Excluir.cshtml" />
     <Content Include="Views\Home\DashboadCursos.cshtml" />
+    <Content Include="Views\Cursos\DisciplinaPorCurso.cshtml" />
+    <Content Include="Views\Home\Login.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

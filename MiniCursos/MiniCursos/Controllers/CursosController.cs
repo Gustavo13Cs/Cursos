@@ -77,16 +77,16 @@ namespace MiniCursos.Controllers
         [HttpGet]
         public ActionResult Excluir(int? id)
         {
-            Cursos excluirProduto = bd.Cursos.ToList().Where(x => x.CURSOID== id).First();
-            return View(excluirProduto);
+            Cursos excluircurso = bd.Cursos.ToList().Where(x => x.CURSOID== id).First();
+            return View(excluircurso);
         }
 
 
         [HttpPost]
         public ActionResult ExcluirConfirma(int? id)
         {
-            Cursos excluirProduto = bd.Cursos.ToList().Where(x => x.CURSOID == id).First();
-            bd.Cursos.Remove(excluirProduto);
+            Cursos excluircurso = bd.Cursos.ToList().Where(x => x.CURSOID == id).First();
+            bd.Cursos.Remove(excluircurso);
             try
             {
                 bd.SaveChanges();
@@ -97,6 +97,11 @@ namespace MiniCursos.Controllers
             }
 
             return RedirectToAction("index");
+        }
+
+        public ActionResult DisciplinaPorCurso (int? id)
+        {
+            return View(bd.Disciplinas.ToList().Where(x=>x.CURSOID==id));
         }
 
     }

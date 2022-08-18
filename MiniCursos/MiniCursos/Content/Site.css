@@ -42,3 +42,34 @@ textarea {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
 }
+
+.divlogin {
+    text-align: center;
+    /*   justify-items:center;*/
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+.divitems {
+    margin: 5px;
+    font-size: 20px;
+}
+
+.backlogin {
+    background-image: url(https://img.freepik.com/vetores-gratis/fundo-branco-abstrato_23-2148810113.jpg?w=2000&#39);
+}
+
+.inputLogin {
+    height: 40px;
+    width: 500px;
+    border-radius: 10px;
+    border-inline-color:cadetblue;
+    border-block-color:cadetblue;
+    
+}
+
+.btnLogin {
+    margin-left: 50px;
+}
